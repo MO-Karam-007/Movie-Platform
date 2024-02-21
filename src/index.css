@@ -1,0 +1,93 @@
+body,html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* background-color: rgba(0, 0, 0, 0.652); */
+  width: 98vw;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+.card-showdow:hover{
+  /* From https://css.glass */
+background: rgba(93, 42, 149, 0.37);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.94);
+filter:brightness(80%);
+-webkit-filter: blur(1.4px);
+transform: scale(1.11111);
+transition: transform 0.3s ease ;
+}
+.cover-card{
+  width: 20vw;
+  /* height: ; */
+}
+
+
+.input{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 20rem ;
+  background-color: rgb(117, 0, 0);
+  padding: 5px 3px;
+}
+
+.my-container{
+  position: relative;
+  
+}
+.overlay{
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: larger;
+  text-align: center;
+  opacity:0;
+
+  transition: opacity 0.5s ;
+}
+.my-container:hover .overlay{
+  opacity: 1;
+}
+.my-container:hover .overlay p{
+  transform:translateY(-50%) ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logo{
+  height: 50px;
+
+}
+.bg-color{border-radius: 70px;}
+.header{
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: orange;
+}
+
+.underline{
+  height: 1px;
+  width: 100px;
+  color: orange;
+  border : 1px solid orangered;
+
+}
+.food-thumnail{
+  height: 200px;
+
+
+}
