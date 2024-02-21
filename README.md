@@ -20,7 +20,7 @@ This is a simple React application that allows users to browse movies with pagin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/movie-browser.git
+   git clone https://github.com/MO-Karam-007/movie-browser.git
    ```
 
 2. Navigate to the project directory:
@@ -53,10 +53,3 @@ This is a simple React application that allows users to browse movies with pagin
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-Make sure to replace placeholders like `yourusername` and `yourrepository` with your actual GitHub username and repository name. You can also customize the installation, usage, and contributing sections as needed for your project. Additionally, you may want to include information about the movie API you're using and how to obtain an API key if necessary.
