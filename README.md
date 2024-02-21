@@ -1,3 +1,11 @@
+# Movies Website
+
+![Home screen](screen1.png)
+----
+
+
+![Details screen](screen2.png)
+
 # Movie Browser App with Pagination
 
 This is a simple React application that allows users to browse movies with pagination. Users can navigate through pages of movies and view detailed information about each movie.
